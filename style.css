@@ -1,0 +1,39 @@
+img{
+  height:600px;
+  width:1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.finalPriceClass {
+  font-size: 30px;
+}
+.header{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 15px;
+    background-color: red;
+    font-weight: 400;
+    text-align: center
+}
+p{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center
+}
+input{
+  padding:10px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+#age{
+  margin-left: 500px;
+}
+h1:hover {
+    color: black;
+}
+button{
+  color: darkblue;
+  font-family: 'Alegreya Sans', sans-serif;
+  border-radius: 50px;
+}

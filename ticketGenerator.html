@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Museum Ticket Generator</title>
+    <script src ="ticketGenerator.js"></script>
+    <link rel="stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <h1 class = "header"> Natural History Museum</h1>
+      <img src="ticket.jpg" alt="museumPic" id ="pic1">
+      <p>Input these parameters to calculate the price of your museum ticket!</p>
+      <p>Please note that promo codes are not aplicable on Tuesdays.</p>
+      <hr/>
+      <input id = "age" placeholder="Age">
+      <input id = "day" placeholder="Day of the week">
+      <input id = "coupon" placeholder="Enter Promo Code">
+
+      <button onclick = 'getPrice()'>Submit</button>
+      <hr/>
+      <div class="finalPriceClass"><div class="finalPriceClass" id = "finalPrice"/></div>
